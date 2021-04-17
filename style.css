@@ -543,7 +543,7 @@ small{
         align-items: center;
         opacity: 2;
        left: -100%;
-       text-align: center;
+       
         height: 100%;
         z-index: 2;
     }
