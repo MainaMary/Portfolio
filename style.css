@@ -18,6 +18,10 @@ body{
 }
 body.darky{
     background-color: #000;
+    color: #fff;
+}
+.link.darky{
+    color: #fff;
 }
 html{
     overflow-x: hidden;
@@ -27,9 +31,9 @@ html{
     padding: 0 4.3rem;
     
 }
-#Projects{
+/* #Projects{
     background-color: #f1f1f1;
-}
+} */
 
 /* styling the Navbar */
 .main-nav{
@@ -368,7 +372,13 @@ input[type="checkbox"]{
 /* Styling the Contact section */
 
 
-
+.contact{
+    text-align: center;
+}
+.contact span{
+    text-align: center;
+    margin: 0 auto;
+}
 .contact-container{
     display: flex;
     justify-content: center;
@@ -587,6 +597,7 @@ small{
         margin: 0 auto;
         
     }
+    
     .project-content{
         width: 100%;
         text-align: center;
@@ -651,5 +662,8 @@ small{
     }
     .rights div{
         width: 50%;
+    }
+    .floating-btn{
+        display: none;
     }
 }
