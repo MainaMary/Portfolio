@@ -135,12 +135,12 @@ transform: rotate(-45deg) translate(-5px ,6px);
 }
 
 /* Styling the Home section */
-.dark-mode{
+ .dark-mode{
     position: absolute;
     right: 1.2rem;
     top: 5rem;
     
-}
+} 
 
 input[type="checkbox"]{
     display: block;
@@ -522,6 +522,8 @@ small{
   }
 }
 @media  only screen  and (max-width: 700px){
+   
+    
     .label-elem{
         left: -1rem;
     }
@@ -578,6 +580,9 @@ small{
     }
     .home-wrapper{
         flex-direction: column;
+    }
+    .home-image{
+        width: 100%;
     }
     .avatar-img{
         display: none;
