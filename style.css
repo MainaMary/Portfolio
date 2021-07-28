@@ -50,12 +50,19 @@ width: 100%;
     background-color: #000;
 }
 
-
 .initials{
     margin: .7rem;
     text-align: center;
     padding: .3rem;
     border: 5px solid var(--pink);
+    cursor: pointer;
+}
+.initials h2{
+color: #000;
+transition: color 1s ease-in-out;
+}
+.initials h2:hover{
+    color: var(--pink);
 }
 
 .main-column{
@@ -77,11 +84,16 @@ list-style-type: none;
     color: #000;
     font-size: 1rem;
     display: block;
+    transition: all 1s ease-in-out 1s;
 }
 .main-column li a:hover {
-background-color: var(--pink);
-padding: .3rem;
-border-radius: .3rem;
+/* background-color: var(--pink); */
+color: var(--pink);
+font-size: 20px;
+border-bottom: 3px solid var(--pink);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+/* padding: .3rem;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+border-radius: .3rem; */
+
 }
 .icon.open{
     display: none;
@@ -190,10 +202,18 @@ input[type="checkbox"]{
 
  }
  .home-content{
-  
-  
-  
   width: 60%;
+  animation-name: content;
+    animation-duration: 1.5s;
+    position: relative;
+}
+@keyframes content {
+    0%{
+        left: -100%;
+    }
+    100%{
+        left: 0;
+    }
 }
 .home-content h2{
     font-size: 2.2rem;
@@ -250,16 +270,26 @@ input[type="checkbox"]{
 }
  .home-image{ 
     width: 50%;
-    
-     
-     
-     
+    animation-name: imageN;
+    animation-duration: 1.5s;
+    position: relative;
+    transition: all .5s ease-in-out 1s;
+   
+ }
+ @keyframes imageN {
+     0%{
+         right: -100%;
+     }
+     100%{
+         right: 0;
+     }
  }
  .avatar-img{
      width: 70%;
      height: 70%;
      border-radius: 50%;
      margin-top: 3rem;
+    
    
 }
 /* Styling the About Section */
