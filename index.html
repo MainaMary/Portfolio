@@ -1,163 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Wanjiku Maina</title>
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
-    <link rel='stylesheet' href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wanjiku Maina</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-</head>
-<body>
-    
-        <nav class="main-nav">
-            <div class="initials">
-                <h2>MW</h2>
-            </div>
-           
-            <ul class="main-column" id="main-column">
-                <li><a class='link' href="#Home">Home</a></li>
-                <li><a class='link' href="#About">About</a></li>
-                <li><a class='link' href="#Services">Services</a></li>
-                <li><a class='link' href="#Projects">Projects</a></li>
-                <li><a class='link' href="#Contact">Contact</a></li>
-            </ul>
-            <div class="icon open" id="open">
-                <!-- <i class="fas fa-bars bars"></i> -->
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </div>
-        </nav>
-        <main class='spacing'>
-            <button class ='floating-btn'>
-                <i class="fas fa-chevron-up chevron"></i>  
+  </head>
+  <body>
+    <nav class="main-nav">
+      <div class="initials">
+        <h2>MW</h2>
+      </div>
+
+      <ul class="main-column" id="main-column">
+        <li><a class="link" href="#Home">Home</a></li>
+        <li><a class="link" href="#About">About</a></li>
+        <li><a class="link" href="#Services">Services</a></li>
+        <li><a class="link" href="#Projects">Projects</a></li>
+        <li><a class="link" href="#Contact">Contact</a></li>
+      </ul>
+      <div class="icon open" id="open">
+        <!-- <i class="fas fa-bars bars"></i> -->
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+    <main class="spacing">
+      <button class="floating-btn">
+        <i class="fas fa-chevron-up chevron"></i>
+      </button>
+      <section id="Home">
+        <div class="dark-mode">
+          <input type="checkbox" class="checkbox" id="checkbox" />
+          <label for="checkbox" class="label-elem">
+            <i class="fas fa-moon dark"></i>
+            <i class="fas fa-sun dark"></i>
+            <div class="circle"></div>
+          </label>
+          <div id="dark-mode"></div>
+        </div>
+
+        <div class="home-wrapper">
+          <div class="home-content">
+            <h2>Hello,</h2>
+            <h1>I am <span>Mary Maina</span></h1>
+            <p>Frontend Developer and <br />Tech Community Organizer</p>
+            <button>
+              <a href="#Home">Hire me</a>
             </button>
-                  <section id="Home"> 
-                <div class="dark-mode" >
-                    <input type="checkbox" class="checkbox" id="checkbox">
-                    <label for="checkbox" class="label-elem">
-                      <i class="fas fa-moon dark"></i>  
-                      <i class="fas fa-sun dark"></i>
-                      <div class="circle"></div>
-                    </label>
-                    <div  id="dark-mode"></div>
-                  </div>
-                 
-                
-                <div class="home-wrapper">
-                        <div class="home-content">
-                            <h2>Hello,</h2>
-                            <h1>I am <span>Wanjiku Maina</span></h1>
-                            <p> Frontend Developer and <br>Tech Community Organizer</p> 
-                            <button>
-                                <a href="#Home">Hire me</a>
-                            </button>
-                        </div>
-                    <div class="home-image">
-                        <img src="./images/sheCode.jpeg" class="avatar-img" alt="avatar"/>
-                    </div>
-                </div>
-            </section>       
-               <section id="About">
-                <h1 class="about-title">About<span></span></h1>
-                <p class="lead">I am a Software developer passionate about problem solving using technolgy and it's endless capabilities.My primary focus is frontend development using React framework  
-                    to create intuitive user interfaces on the client side. 
-                    Currently learning NodeJS-(Express) for building web apps and designing APIs and PostgreSQL for database management.</p>
-               <p class="lead">I am a champion for tech communities and women in tech empowerment.I help to facilitate web development track sessions.</p>
-                </section>    
-              <section id="Services">
-                <h1 class="about-title">Service Offers<span></span></h1>
-               <p class="lead">What I provide</p>
-               <div class="offers">
-                   <div class="wrapper">
-                        <i class="fas fa-code icon"></i> 
-                        <h3>Frontend development</h3>
-                        <p>
-                            A front end web developer who is able to build a web presence from the ground up – from concept to layout and programming 
-                        </p>
-                   </div>
-                   <div class="wrapper">
-                    <i class="fas fa-desktop icon"></i>
-    
-                        <h3>Responsive design</h3>
-                        <p>
-                            I create web pages that automatically resize for different screen sizes and viewports with the help of 
-                            flexible grids and css flexbox.
-                        </p>
-                   </div>
-                   <div class="wrapper">
-                    <i class="fas fa-pen-alt icon"></i>
-            
-                        <h3>Technical writer</h3>
-                        <p>
-                            I impart the knowledge of technology to others via writing great technical articles.
-                            My role as a techniacl write is to juggle between people, process, and product, and collaborate efficiently to deliver the product.
-                        </p>
-                   </div>
-               </div>
-            </section>   
-              <section id="Projects">
-                <h1 class="about-title">Projects<span></span></h1>
-               <p class="lead">Here are some of the projects I have worked on:</p>
-             <div class="projects">
-                 <div class="anime" data-aos='fade-right'>
-                     <div class="project-content">
-                         <h3>Gifted Pen bookstore</h3>
-                         <p>
-                            We are your go-to book store for a different variety of books.
-                             Gifted pen bookstore focuses on selling books that cover different topics in the ecosystem.
-                             We offer delivery services at a reduced fee based on your location.
+          </div>
+          <div class="home-image">
+            <img src="./images/sheCode.jpeg" class="avatar-img" alt="avatar" />
+          </div>
+        </div>
+      </section>
+      <section id="About">
+        <h1 class="about-title">About<span></span></h1>
+        <p class="lead">
+          I am a frontend developer passionate about problem solving using
+          technolgy and it's endless capabilities.I specialize in building
+          exceptional digital experiences. My primary focus is frontend
+          development using React and Nextjs to create intuitive user interfaces
+          on the client side. Currently learning backend technolgies using
+          NodeJS and MongoDB.
+        </p>
+        <p class="lead">
+          I am a champion for tech communities and women in tech empowerment.I
+          help to facilitate web development track sessions.
+        </p>
+      </section>
+      <section id="Services">
+        <h1 class="about-title">Service Offers<span></span></h1>
+        <p class="lead">What I provide</p>
+        <div class="offers">
+          <div class="wrapper">
+            <i class="fas fa-code icon"></i>
+            <h3>Frontend development</h3>
+            <p>
+              A front end web developer who is able to build a web presence from
+              the ground up – from concept to layout and programming
+            </p>
+          </div>
+          <div class="wrapper">
+            <i class="fas fa-desktop icon"></i>
 
-                         </p>
-                         <button>
-                             <a href="https://marymaina98.github.io/Book_Store/" target="_blank">View project</a>
-                        </button>
-                     </div>
-                    <div class="project-img">
-                        <img src="./images/book-proj.png" class="img-proj" alt="recipe">
-                    </div>
-                </div>
-                <div class="anime" data-aos='fade-left'>
-                    <div class="project-content">
-                        <h3 class="project-title"> Food Hub Recipes</h3>
-                        <p>
-                            Get a daily dose of recipes and instructions on how to prepare different dishes.
-                            You can watch videos on how to prepare meals with less stress and more joy.
-                            Incase of any inquiries get in touch with us.
+            <h3>Responsive design</h3>
+            <p>
+              I create web pages that automatically resize for different screen
+              sizes and viewports with the help of flexible grids and css
+              flexbox.
+            </p>
+          </div>
+          <div class="wrapper">
+            <i class="fas fa-pen-alt icon"></i>
 
-                        </p>
-                        <button><a href="https://marymaina98.github.io/meal-finder/#home" target="_blank">View project</a></button>
-                    </div>
-                   <div class="project-img">
-                       <img src="./images/recipe.png" class="img-proj" alt="recipe">
-                   </div>
-               </div>
-             </div>
-            </section>  
-             <section id="Contact">
-                <h1 class="about-title contact">Contact Me<span></span></h1>
-                <div class="contact-container">
-                    <form class='form' id='form'>
-                        <h3>Get in touch</h3>
-                        <div class="form-control ">
-                          <label for='name'>Name:</label>
-                          <input type="text"  id="name"/>
-                          <i class="fas fa-check contact-check"></i>
-                          <i class="fas fa-exclamation contact-danger"></i>
-                          <small>Error Message</small>
-                        </div>
-                        <div class="form-control">
-                            <label for='name'>Email:</label>
-                            <input type="text"  id="email"/>
-                            <i class="fas fa-check contact-check"></i>
-                            <i class="fas fa-exclamation contact-danger"></i>
-                            <small>Error Message</small>
-                        </div>
-                        <!-- <div class="form-control">
+            <h3>Technical writer</h3>
+            <p>
+              I impart the knowledge of technology to others via writing great
+              technical articles. My role as a techniacl write is to juggle
+              between people, process, and product, and collaborate efficiently
+              to deliver the product.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="Projects">
+        <h1 class="about-title">Projects<span></span></h1>
+        <p class="lead">Here are some of the projects I have worked on:</p>
+        <div class="projects">
+          <div class="anime" data-aos="fade-right">
+            <div class="project-content">
+              <h3>Gifted Pen bookstore</h3>
+              <p>
+                We are your go-to book store for a different variety of books.
+                Gifted pen bookstore focuses on selling books that cover
+                different topics in the ecosystem. We offer delivery services at
+                a reduced fee based on your location.
+              </p>
+              <button>
+                <a
+                  href="https://marymaina98.github.io/Book_Store/"
+                  target="_blank"
+                  >View project</a
+                >
+              </button>
+            </div>
+            <div class="project-img">
+              <img src="./images/book-proj.png" class="img-proj" alt="recipe" />
+            </div>
+          </div>
+          <div class="anime" data-aos="fade-left">
+            <div class="project-content">
+              <h3 class="project-title">Food Hub Recipes</h3>
+              <p>
+                Get a daily dose of recipes and instructions on how to prepare
+                different dishes. You can watch videos on how to prepare meals
+                with less stress and more joy. Incase of any inquiries get in
+                touch with us.
+              </p>
+              <button>
+                <a
+                  href="https://marymaina98.github.io/meal-finder/#home"
+                  target="_blank"
+                  >View project</a
+                >
+              </button>
+            </div>
+            <div class="project-img">
+              <img src="./images/recipe.png" class="img-proj" alt="recipe" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="Contact">
+        <h1 class="about-title contact">Contact Me<span></span></h1>
+        <div class="contact-container">
+          <form class="form" id="form">
+            <h3>Get in touch</h3>
+            <div class="form-control">
+              <label for="name">Name:</label>
+              <input type="text" id="name" />
+              <i class="fas fa-check contact-check"></i>
+              <i class="fas fa-exclamation contact-danger"></i>
+              <small>Error Message</small>
+            </div>
+            <div class="form-control">
+              <label for="name">Email:</label>
+              <input type="text" id="email" />
+              <i class="fas fa-check contact-check"></i>
+              <i class="fas fa-exclamation contact-danger"></i>
+              <small>Error Message</small>
+            </div>
+            <!-- <div class="form-control">
                             <label for='name'>Password:</label>
                             <input type="text" placeholder="wanjiku@gmail.com" id="password"/>
                             <i class="fas fa-check contact-check"></i>
@@ -171,54 +199,49 @@
                             <i class="fas fa-exclamation contact-danger"></i>
                             <small>Error Message</small>
                         </div>  -->
-                         <div class="form-control">
-                            <label for='name'>Message:</label>
-                           <textarea id='messagetxt'></textarea>
-                            <i class="fas fa-check contact-check"></i>
-                            <i class="fas fa-exclamation contact-danger"></i>
-                            <small>Error Message</small>
-                        </div>
-                        <button class='btn-submit' id='submit'type="submit">Submit</button>
-                    </form>
-                </div>
-               
-            </section>   
-            <footer class="main-footer"> 
-                <h2>Meet me at my Socials</h2>
-                <div class="icons-text">
-                    <div>
-                        <i class="fas fa-envelope social-icon"></i>
-                      <p>mainamary@gmail.com</p>
-                    </div>
-                    <div>
-                        <i class="fas fa-phone social-icon"></i>
-                      <p>+254 713524861</p>
-                    </div>
-                    <div>
-                        <i class="fab fa-twitter social-icon"></i>
-                      <p>@Wanjiku_MM</p>
-                    </div>
-                    
-                </div>
-                <div class="rights">
-                    <p>Built with <i class="fas fa-heart"></i> by Wanjiku Maina</p>
-                    <div>
-                        <i class="fab fa-github"></i>
-                        <i class="fab fa-linkedin-in "></i>
-                        <i class="fab fa-medium"></i>
-                    </div>
-                    <p>Copyright ©2021 All rights reserved</p>
-                </div>
+            <div class="form-control">
+              <label for="name">Message:</label>
+              <textarea id="messagetxt"></textarea>
+              <i class="fas fa-check contact-check"></i>
+              <i class="fas fa-exclamation contact-danger"></i>
+              <small>Error Message</small>
+            </div>
+            <button class="btn-submit" id="submit" type="submit">Submit</button>
+          </form>
+        </div>
+      </section>
+      <footer class="main-footer">
+        <h2>Meet me at my Socials</h2>
+        <div class="icons-text">
+          <div>
+            <i class="fas fa-envelope social-icon"></i>
+            <p>mainamary@gmail.com</p>
+          </div>
+          <div>
+            <i class="fas fa-phone social-icon"></i>
+            <p>+254 713524861</p>
+          </div>
+          <div>
+            <i class="fab fa-twitter social-icon"></i>
+            <p>@Wanjiku_MM</p>
+          </div>
+        </div>
+        <div class="rights">
+          <p>Built with <i class="fas fa-heart"></i> by Wanjiku Maina</p>
+          <div>
+            <i class="fab fa-github"></i>
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-medium"></i>
+          </div>
+          <p>Copyright ©2021 All rights reserved</p>
+        </div>
+      </footer>
+    </main>
 
-            </footer>
-             
-        </main>
-    
-<script src="app.js"></script>
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
-
-</body>
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
